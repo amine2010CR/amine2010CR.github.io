@@ -1,9 +1,20 @@
 header {
-    background: lightblue;
-    border: solid blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: MediumAquaMarine;
+    border: solid rgb(0, 255, 255);
     border-width: 10px 0px 10px 0px;
     margin: 0 auto;
     text-align: center;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    gap: 6px;
 }
 
 h1 {
@@ -20,7 +31,7 @@ h1 {
 }
 
 h3 {
-    background-color: #ce54c7;
+    background-color: #657496;
     padding: 15px;
     font-size: 1.5em;
     border-left: 10px solid #d6d5cd;
@@ -35,6 +46,7 @@ h3 {
 body {
     font-family: helvetica, arial, san-serif;
 }
+
 
 p,
 ul {
@@ -51,4 +63,16 @@ ul {
     list-style: none;
     padding-left: 50px;
     font-size: 1.3em;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
 }
